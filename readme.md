@@ -1,1 +1,2 @@
-
+Problem Statement:
+In this work, we will analyze Multimodal Machine Learning models along with single-entity models and compare their performances, challenges, and pitfalls. More concretely, two data entities (textual and image) will be trained and tested in Multimodal architectures like Long Short-Term Memory (LSTM) model and in contrast, will also be fitted to the current state-of-the-art single entity model like Support Vector Machine (SVM) for textual data and Convolutional Neural Networks (CNN) for image data and, finally, we will deeply investigate their outputs.
