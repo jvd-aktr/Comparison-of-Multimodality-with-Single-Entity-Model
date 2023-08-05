@@ -27,21 +27,21 @@ python3 missImg_detect.py
 Remove the unimportant data (e.g. textual data has bad characters)\
 python3 missleadingData_removal.py
 
-Now it is important to map the text and image data together. Use
+Now it is important to map the text and image data together. Use\
 python3 txtImgMapping.py
 
-Finally, to train the models better, shuffle the positive and negative class data using
+Finally, to train the models better, shuffle the positive and negative class data using\
 python3 posneg_shuffle.py
 
 #### Single Entity Learning:
-The textual data is learned by Fake_news_data_SVM.py. Run
+The textual data is learned by Fake_news_data_SVM.py. Run\
 python3 Fake_news_data_SVM.py
 
-The image data is trained with laion-400m_data_CNN2.py file. Run
+The image data is trained with laion-400m_data_CNN2.py file. Run\
 python3 laion-400m_data_CNN2.py
 
 #### Multimodal Learning:
-Both the image and textual data are being co-learned in txtImg_mapped_LSTM2.py file. Run
+Both the image and textual data are being co-learned in txtImg_mapped_LSTM2.py file. Run\
 python3 txtImg_mapped_LSTM2.py
 
 Note: Please update the files with the appropriate file path inside the code before running.
