@@ -37,7 +37,10 @@ python3 posneg_shuffle.py
 The textual data is learned by Fake_news_data_SVM.py. Run\
 python3 Fake_news_data_SVM.py
 
-The image data is trained with laion-400m_data_CNN2.py file. Run\
+All image data processed into a CSV file for CNN model. Run\
+python3 img-csv-like-mnist.py
+
+Then the image data is trained with laion-400m_data_CNN2.py file. Run\
 python3 laion-400m_data_CNN2.py
 
 #### Multimodal Learning:
