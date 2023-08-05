@@ -9,6 +9,5 @@ The LAION-400M Dataset does not provide the image and text data directly. It onl
 
 
 ## Data Preprocessing:
-#### Missing Data:
 Some of the image files could not be downloaded because of network issues, therefore, we discarded the corresponding texts of those missing images. We defined binary class based on the presence of humans in the image.
 
