@@ -21,7 +21,8 @@ Download the data, using DataDownloader.ipynb
 
 Read the data, using DataReader.ipynb
 
-To identify which images are missing use ## python3 missImg_detect.py
+To identify which images are missing use: 
+python3 missImg_detect.py
 
 Remove the unimportant data (e.g. textual data has bad characters)
 python3 missleadingData_removal.py
